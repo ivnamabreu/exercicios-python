@@ -1,7 +1,7 @@
 import math
 
-def resposta(metros):
-    litros = metros / 3
+def resposta(m = 102):
+    litros = m / 3
     latas = math.ceil(litros / 18)
     preco = latas * 80
     return (latas, preco)
