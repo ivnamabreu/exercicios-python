@@ -42,6 +42,6 @@ jobs:
           git fetch origin coverage-badge
           git switch coverage-badge
           cp /tmp/tests.svg tests.svg
-          git add tests.svg
+          git add -f tests.svg
           git commit -m "Atualiza badge de testes" || echo "Nada a commitar"
           git push origin coverage-badge
