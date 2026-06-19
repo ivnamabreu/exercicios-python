@@ -5,7 +5,7 @@ Nível: Intermediário
 
 ## Objetivo
 
-Praticar o `while` com uma **condição de parada por sentinela**: o laço continua repetindo até encontrar um valor especial que sinaliza o fim. Esse padrão é a base de menus e leituras que se repetem "até o usuário decidir parar".
+Praticar o `while` com uma **condição de parada por sentinela** - o laço continua repetindo até encontrar um valor especial que sinaliza o fim. Esse padrão é a base de menus e leituras que se repetem até o usuário decidir parar.
 
 ## Especificação
 
@@ -13,20 +13,20 @@ Praticar o `while` com uma **condição de parada por sentinela**: o laço conti
 
 Abra o arquivo `main.py`. Dentro dele, localize a função `resposta`.
 
-A função recebe uma lista de números inteiros chamada `numeros`. Percorra a lista com um laço `while`, somando os valores, e **pare assim que encontrar o número `0`**. O `0` funciona como sinal de parada e **não** deve ser incluído na soma. A função retorna a soma obtida.
+A função recebe o parâmetro `numeros` (uma lista de números inteiros). Percorra a lista com um laço `while`, somando os valores, e **pare assim que encontrar o número `0`**. O `0` funciona como sinal de parada e **não** deve ser incluído na soma. A função deve retornar a soma obtida.
 
-> Em um programa interativo, você leria cada número com `input()` dentro do laço, repetindo até o usuário digitar `0`. Aqui, a função `resposta` já recebe todos esses valores prontos na lista `numeros`.
+Em um programa interativo, cada número seria lido com `input()` dentro do laço, repetindo até o usuário digitar `0`. Aqui, esses valores já chegam prontos no parâmetro `numeros`.
 
 Regras:
 
-- Utilize obrigatoriamente o laço `while`.
-- Pare ao encontrar o **primeiro** `0` e não some esse `0`.
+- Utilize obrigatoriamente o laço `while`;
+- Pare ao encontrar o **primeiro** `0` e não some esse `0`;
 - Se a lista não contiver nenhum `0`, some todos os elementos.
 
 Exemplos:
 
-- `resposta([4, 7, 2, 0, 9])` deve retornar `13` (soma 4 + 7 + 2 e para no 0)
-- `resposta([1, 2, 3])` deve retornar `6` (não há 0, soma tudo)
-- `resposta([0, 5])` deve retornar `0` (para logo no início)
+- `resposta([4, 7, 2, 0, 9])` → `13`
+- `resposta([1, 2, 3])` → `6`
+- `resposta([0, 5])` → `0`
 
 **Atenção:** utilize `return`, não `print`.
