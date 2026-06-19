@@ -1,2 +1,2 @@
-def resposta():
+def resposta(nome, idade, cidade):
     pass

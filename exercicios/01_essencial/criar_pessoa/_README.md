@@ -13,7 +13,7 @@ Praticar a criação de um dicionário com pares **chave: valor**. Dicionários 
 
 Abra o arquivo `main.py`. Dentro dele, localize a função `resposta`.
 
-A função recebe três valores: `nome`, `idade` e `cidade`. Monte e retorne um dicionário com exatamente estas três chaves: `'nome'`, `'idade'` e `'cidade'`, associadas aos valores recebidos.
+A função recebe os parâmetros `nome`, `idade` e `cidade`. Monte e retorne um dicionário com exatamente estas três chaves: `'nome'`, `'idade'` e `'cidade'`, associadas aos valores recebidos.
 
 Regras:
 
@@ -22,7 +22,7 @@ Regras:
 
 Exemplos:
 
-- `resposta('Ana', 30, 'Belo Horizonte')` deve retornar `{'nome': 'Ana', 'idade': 30, 'cidade': 'Belo Horizonte'}`
-- `resposta('João', 25, 'Poços de Caldas')` deve retornar `{'nome': 'João', 'idade': 25, 'cidade': 'Poços de Caldas'}`
+- `resposta('Ana', 30, 'Belo Horizonte')` → `{'nome': 'Ana', 'idade': 30, 'cidade': 'Belo Horizonte'}`
+- `resposta('João', 25, 'Poços de Caldas')` → `{'nome': 'João', 'idade': 25, 'cidade': 'Poços de Caldas'}`
 
 **Atenção:** utilize `return`, não `print`.
