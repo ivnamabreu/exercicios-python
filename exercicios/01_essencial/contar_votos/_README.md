@@ -13,18 +13,18 @@ Praticar o uso de um dicionário como **contador**, combinando dicionários com 
 
 Abra o arquivo `main.py`. Dentro dele, localize a função `resposta`.
 
-A função recebe uma lista de textos chamada `votos`. Retorne um dicionário em que cada **chave** é uma opção que apareceu na lista e cada **valor** é a quantidade de vezes que essa opção apareceu.
+A função recebe o parâmetro `votos` (uma lista de textos). Retorne um dicionário em que cada **chave** é uma opção que apareceu na lista e cada **valor** é a quantidade de vezes que essa opção apareceu.
 
 Regras:
 
-- Percorra a lista e vá montando o dicionário de contagem.
-- Uma opção que aparece pela primeira vez começa com contagem `1`.
+- Percorra a lista e vá montando o dicionário de contagem;
+- Uma opção que aparece pela primeira vez começa com contagem `1`;
 - Se a lista estiver vazia, retorne um dicionário vazio (`{}`).
 
 Exemplos:
 
-- `resposta(['A', 'B', 'A', 'C', 'A'])` deve retornar `{'A': 3, 'B': 1, 'C': 1}`
-- `resposta(['sim', 'sim', 'não'])` deve retornar `{'sim': 2, 'não': 1}`
-- `resposta([])` deve retornar `{}`
+- `resposta(['A', 'B', 'A', 'C', 'A'])` → `{'A': 3, 'B': 1, 'C': 1}`
+- `resposta(['sim', 'sim', 'não'])` → `{'sim': 2, 'não': 1}`
+- `resposta([])` → `{}`
 
 **Atenção:** utilize `return`, não `print`.
