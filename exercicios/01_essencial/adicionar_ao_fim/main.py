@@ -1,2 +1,2 @@
-def resposta():
+def resposta(lista, item):
     pass
