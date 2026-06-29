@@ -1,5 +1,7 @@
 # Trilha-Dev: Python - Repositório de exercícios Python com testes automatizados
 
+![test status](../coverage-badge/tests.svg?raw=true)
+
 Repositório de exercícios Python com correções automáticas. Aqui, as soluções propostas para os exercícios recebem feedback instantâneo e automático via testes automatizados.
 
 ## Começe agora
@@ -8,8 +10,8 @@ Para fazer os exercícios, você precisará copiar o repositório da organizaç�
 
 ###  Criar o Fork
 
-1. Acesse o repositório exercicios-python da Splor-mg
-2. Clique no botão Fork (canto superior direito).
+1. Acesse o [repositório exercicios-python da Splor-mg](https://github.com/splor-mg/exercicios-python/).
+2. Clique no botão [Fork](https://github.com/splor-mg/exercicios-python/fork) (canto superior direito).
 3. Escolha sua conta pessoal como destino.
 4. Confirme a criação.
 
@@ -41,7 +43,7 @@ Siga os passos abaixo para configurar o projeto localmente:
 1. Clone o repositório:
 
    ````sh
-    git clone git@github.com:SEU-USUARIO/exercicios-python.git
+   git clone git@github.com:SEU-USUARIO/exercicios-python.git
    cd exercicios-python
    ```
 
@@ -81,9 +83,9 @@ Siga os passos abaixo para configurar o projeto localmente:
     cd <pasta-exercicio>
     ```
 
-- Executar todos os testes do diretório. 
+- Executar todos os testes do diretório.
     ```sh
-    task test 
+    task test
     ```
 
 ### Configurar o repositório original como upstream
