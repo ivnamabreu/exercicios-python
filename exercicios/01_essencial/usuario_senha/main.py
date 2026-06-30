@@ -1,2 +1,7 @@
 def resposta(usuario, senha):
-    pass
+    if usuario == senha:
+        return('erro')
+    else:
+        return('válido')
+
+

@@ -1,2 +1,2 @@
 def resposta(nome):
-    pass
+    return('Bem-vindo, ' + nome + '!')

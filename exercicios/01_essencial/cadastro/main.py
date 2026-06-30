@@ -1,2 +1,5 @@
 def resposta(nome, idade, altura):
-    pass
+    mensagem = f'Nome: {nome} | Idade: {idade} | Altura: {altura}'
+    return(mensagem)
+
+

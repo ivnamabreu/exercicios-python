@@ -1,2 +1,3 @@
 def resposta(ano_nascimento):
-    pass
+    idade = 2026 - int(ano_nascimento)
+    return(idade)
