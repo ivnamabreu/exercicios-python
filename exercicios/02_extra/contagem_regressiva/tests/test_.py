@@ -1,4 +1,4 @@
-from metro_milimetro.main import resposta
+from contagem_regressiva.main import resposta
 import inspect
 import pytest
 
@@ -8,7 +8,7 @@ def test_not_none():
 
 
 def test_type():
-    assert type(resposta(13)) == int or type(resposta(3.2)) == float, "Esperado um inteiro ou float"
+    assert type(resposta(13)) == list, "Esperado uma lista"
 
 
 def test_parameters():
@@ -16,6 +16,6 @@ def test_parameters():
 
 
 def test_options_resposta():
-    assert resposta(10) == 10000, f"Esperado valor 10000"
-    assert resposta(1.2) == 1200, f"Esperado valor 1200"
-    assert resposta(0.93) == 930, f"Esperado valor 930"
+    assert resposta(10) == [10, 9, 8, 7, 6, 5, 4, 3, 2, 1], f"Esperado valor '[10, 9, 8, 7, 6, 5, 4, 3, 2, 1]'"
+    assert resposta(1) == [1], f"Esperado valor '[1]'"
+    assert resposta(0) == [], f"Esperado valor '[0]'"
