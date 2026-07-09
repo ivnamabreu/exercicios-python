@@ -18,7 +18,6 @@ A função recebe os parâmetros `dicionario` (um dicionário) e `chave`. Retorn
 Regras:
 
 - Utilize o método `get` para acessar o valor;
-- Não utilize colchetes (`dicionario[chave]`), pois isso gera erro quando a chave não existe.
 
 Exemplos:
 
