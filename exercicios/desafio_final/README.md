@@ -28,7 +28,19 @@ Passos:
 
 ### Dica: 
  
-O alfabeto tem 26 letras (posições `0` a `25`, via `ord(char) - ord('A')`). Ao subtrair a `chave`, o resultado pode ficar negativo (ex.: posição `1 - 5 = -4`, que não existe). O operador `% 26` resolve isso fazendo o valor "dar a volta" pelo fim do alfabeto — em Python, `%` sempre devolve um resultado não negativo quando o divisor é positivo (`-4 % 26` = `22`, ou seja, a letra `W`). Sem o `% 26`, `chr()` geraria um caractere inválido.
+Utilize `posicao = ord(char) - ord("A")` para obter a posição da letra no alfabeto, considerando `A = 0`, `B = 1`, ..., `Z = 25`.
+
+```python
+char = "B"
+
+posicao = ord(char) - ord("A")
+print(posicao)  # 1
+
+posicao = (posicao - 5) % 26
+print(posicao)  # 22
+```
+
+Nesse exemplo, o `% 26` faz o deslocamento "dar a volta" no alfabeto, transformando a posição `-4` em `22`.
  
 ### Hora de decifrar sua mensagem secreta:
  
