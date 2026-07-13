@@ -38,6 +38,9 @@ print(posicao)  # 1
 
 posicao = (posicao - 5) % 26
 print(posicao)  # 22
+
+# converta o número de volta para letra
+nova_letra = chr(posicao + ord("A"))
 ```
 
 Nesse exemplo, o `% 26` faz o deslocamento "dar a volta" no alfabeto, transformando a posição `-4` em `22`.
