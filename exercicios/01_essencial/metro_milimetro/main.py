@@ -1,2 +1,3 @@
 def resposta(n):
-    pass
+    milimetros = n * 1000 
+    return milimetros
