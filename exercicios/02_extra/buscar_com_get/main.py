@@ -1,2 +1,5 @@
 def resposta(dicionario, chave):
-    pass
+    if chave in dicionario:
+        return dicionario.get(chave)
+    else:
+        return None
