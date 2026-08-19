@@ -1,2 +1,7 @@
 def resposta(texto):
-    pass
+    try:
+        inteiro = int(texto)
+        return(inteiro)
+    
+    except ValueError:
+        return("Valor inválido")

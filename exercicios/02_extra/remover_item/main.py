@@ -1,2 +1,4 @@
 def resposta(lista, item):
-    pass
+    if item in lista:
+        lista.remove(item)
+    return lista 
